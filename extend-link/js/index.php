@@ -1,3 +1,3 @@
 <?php
 
-die('Silence is Golden.');
+// Silence is Golden.

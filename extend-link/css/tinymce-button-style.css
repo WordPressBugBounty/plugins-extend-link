@@ -1,0 +1,236 @@
+#extend-link-dialog-title.mce-title:before{
+    font-family: dashicons;
+    content: "\f103";
+    display: inline-block !important;
+    margin-right: 8px !important;
+    font-weight:500 !important;
+    vertical-align: middle !important;
+}
+
+.mce-i-extendlink-mce-new-icon:before {
+    font-family: dashicons !important;
+    content: "\f103" !important;
+    font-size: 15px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right: 3px !important;
+}
+
+.mce-btn:hover .mce-i-extendlink-mce-new-icon:before {
+    color: #2271B1;
+}
+
+.mce-etxndl-general-style-btn,
+.mce-etxndl-general-style-btn:hover,
+.mce-etxndl-general-style-btn:focus,
+.mce-etxndl-general-style-btn:active{
+    text-shadow:none !important;
+    box-shadow:none !important;
+    outline:none !important;
+    border-color: #2c942e !important;
+}
+
+.mce-etxndl-general-style-btn > button,
+.mce-etxndl-general-style-btn > button:hover,
+.mce-etxndl-general-style-btn > button:focus,
+.mce-etxndl-general-style-btn > button:active{
+    background: #34b037 !important;
+    border-color: #2c942e !important;
+    color: white !important;
+    box-shadow:none !important;
+    outline:none !important;
+    font-size:13px !important;
+    text-align:center !important;
+    font-weight:400 !important;
+}
+
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn,
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn:hover,
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn:focus,
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn:active{
+    border-color: #81309d !important;
+}
+
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn > button,
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn > button:hover,
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn > button:focus,
+.mce-etxndl-general-style-btn.mce-etxndl-pre-s-btn > button:active{
+    background: #993aba !important;
+    border-color: #81309d !important;
+}
+
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn,
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn:hover,
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn:focus,
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn:active{
+    border-color: #005a87 !important;
+}
+
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn > button,
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn > button:hover,
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn > button:focus,
+.mce-etxndl-general-style-btn.mce-etxndl-g-s-btn > button:active{
+    background: #007cba !important;
+    border-color: #005a87 !important;
+}
+
+.mce-etxndl-vp-s-btn > button:before {
+    font-family: 'dashicons' !important;
+    content: '\f106' !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+    line-height:20px !important;
+}
+
+.mce-etxndl-pre-s-btn > button:before {
+    font-family: 'dashicons' !important;
+    content: '\f106' !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+    line-height:20px !important;
+}
+
+.mce-etxndl-g-s-btn > button:before {
+    font-family: 'dashicons' !important;
+    content: '\f14c' !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+    line-height:20px !important;
+}
+
+.mce-etxndl-h-s-btn > button:before {
+    font-family: 'dashicons' !important;
+    content: '\f223' !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+    line-height:20px !important;
+    font-size:15px;
+}
+
+.mce-etxndl-rate-s-btn > button:before {
+    font-family: 'dashicons' !important;
+    content: '\f155' !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+    line-height:20px !important;
+}
+
+.mce-extend-link-btns-wrap{
+    padding:8px 0 !important;
+    border-top:1px solid #ddd !important;
+}
+
+.mce-etxndl-note-label{
+    padding:4px 0 !important;
+    margin:10px 0 !important;
+    border-top:1px solid #ddd !important;
+    display:block !important;
+    width:100% !important;
+    font-size:13px !important;
+}
+
+#extend-link-dialog{
+    width: 100% !important;
+    max-width: 75vw !important;
+    height: auto !important;
+    max-height: 90vh !important;
+    margin:0 auto !important;
+    left:0 !important;
+    right:0 !important;
+    top:42px !important;
+    bottom:auto !important;
+    overflow-y:scroll !important;
+    overflow-x:hidden !important;
+}
+
+@media (max-width: 1260px) {
+    #extend-link-dialog{
+        max-width: 85vw !important;
+    }
+}
+
+@media (max-width: 1180px) {
+    #extend-link-dialog{
+        max-width: 95vw !important;
+        overflow-x:auto !important;
+    }
+}
+
+#extend-link-dialog .mce-checkbox{
+    width: 40px !important;
+}
+
+#extend-link-dialog input{
+    box-sizing: border-box;
+}
+
+#extend-link-dialog .mce-checkbox {
+    position: relative !important;
+    width: 40px !important;
+    height: 22px !important;
+    background: #D5D5D5 !important;
+    border-radius: 11px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right: 10px !important;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+#extend-link-dialog .mce-checkbox i {
+    display: none !important;
+}
+
+#extend-link-dialog .mce-checkbox:before {
+    content: '' !important;
+    position: absolute !important;
+    top: 2px !important;
+    left: 2px !important;
+    width: 18px !important;
+    height: 18px !important;
+    background: white !important;
+    border-radius: 50% !important;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+    z-index: 2 !important;
+}
+
+#extend-link-dialog .mce-checkbox.mce-checked {
+    background: #34d399 !important;
+    background: linear-gradient(135deg, #10b981, #34d399) !important;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(52, 211, 153, 0.2) !important;
+}
+
+#extend-link-dialog .mce-checkbox.mce-checked:before {
+    left: 20px !important;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25) !important;
+}
+
+#extend-link-dialog .mce-checkbox:hover {
+    transform: scale(1.05) !important;
+}
+
+#extend-link-dialog .mce-checkbox.mce-checked:hover {
+    background: linear-gradient(135deg, #059669, #10b981) !important;
+}
+
+#extend-link-dialog .mce-checkbox:focus {
+    outline: none !important;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(52, 211, 153, 0.3) !important;
+}
+
+#extend-link-dialog .mce-checkbox:active:before {
+    width: 22px !important;
+}
+
+#extend-link-dialog .mce-checkbox.mce-checked:active:before {
+    left: 16px !important;
+}
+
+#extend-link-dialog .mce-checkbox.mce-disabled,
+#extend-link-dialog .mce-disabled.mce-checkbox{
+    background: #993aba !important;
+    opacity:0.7;
+}
