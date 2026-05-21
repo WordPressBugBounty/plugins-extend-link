@@ -2,8 +2,8 @@
 Contributors: Alobaidi
 Tags: editor, link, class, seo, nofollow
 Requires at least: 5.8
-Tested up to: 6.9
-Stable tag: 2.0.1
+Tested up to: 7.0
+Stable tag: 2.0.2
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -141,6 +141,12 @@ Everything related to the plugin can be found on [this page](https://wp-time.com
 3. Best Practices Compliant.
 
 == Changelog ==
+
+= 2.0.2 =
+
+Minor improvement.
+
+After updating, no action is required on your part. Enjoy!
 
 = 2.0.1 =
 

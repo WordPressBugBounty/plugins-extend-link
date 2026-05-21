@@ -3,7 +3,7 @@
  * Plugin Name: Extend Link
  * Plugin URI: https://wp-time.com/how-to-add-link-attributes-in-wordpress/
  * Description: Allows you to add classes, IDs, titles, rel attributes, and file download options to links directly from the "Extend Link" dialog in the Classic Editor and Classic Block in Gutenberg. It also provides H1–H6 support, so you can, for example, add an ID or classes to a heading. A lightweight, professional plugin, free and always will remain free!
- * Version: 2.0.1
+ * Version: 2.0.2
  * Author: Alobaidi
  * Author URI: https://wp-time.com/how-to-add-link-attributes-in-wordpress/
  * Text Domain: extend-link

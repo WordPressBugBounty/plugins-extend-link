@@ -254,7 +254,7 @@
                                     tooltip: __extendLinkLang('plugin_ref_btn_tooltip'),
                                     classes: 'etxndl-general-style-btn etxndl-g-s-btn',
                                     onclick: function() {
-                                        window.open('https://wp-time.com/extend-link-plugin-wordpress/', '_blank');
+                                        window.open('https://wp-time.com/how-to-add-link-attributes-in-wordpress/', '_blank');
                                     }
                                 },
                                 {
